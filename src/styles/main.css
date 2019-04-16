@@ -38,7 +38,7 @@
  */
 
 body {
-  @apply font-sans text-base text-gray-80;
+  @apply font-sans text-base text-gray-80 bg-gray-0 leading-normal;
 }
 
 .container {
@@ -59,6 +59,14 @@ h3 {
 
 h4 {
   @apply text-lg font-bold my-3;
+}
+
+.small {
+  @apply text-sm text-gray py-2;
+}
+
+.caption {
+  @apply text-xs text-gray-70 py-1;
 }
 
 .actioncard {
