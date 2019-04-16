@@ -129,12 +129,12 @@ h4 {
   @apply bg-red-40;
 }
 
-label {
-  @apply text-gray-50;
+input[type="text"] {
+  @apply border-gray-40 px-3 h-12 border rounded my-2 text-gray-80;
 }
 
-input[type="text"] {
-  @apply border-gray-40 px-3 h-12 border rounded my-2;
+input::placeholder {
+  @apply text-gray-50;
 }
 
 /**
