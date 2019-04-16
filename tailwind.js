@@ -85,8 +85,8 @@ let colors = {
   'gray-10': '#F9FAFA',
   'gray-20': '#E7E9EB',
   'gray-40': '#B9C0C5',
-  'gray':    '#425563',
-  'gray-70': '#768B9B',
+  'gray-50': '#5E778A',
+  'gray':    '#33434E',
   'gray-80': '#222E37',
 
 /* Old Colors
