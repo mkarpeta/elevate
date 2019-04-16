@@ -113,6 +113,22 @@ h4 {
   @apply bg-red-80;
 }
 
+.button-secondary--success {
+  @apply bg-gray-0 text-green border border-green;
+}
+
+.button-secondary--success:hover {
+  @apply bg-green-40;
+}
+
+.button-secondary--danger {
+  @apply bg-gray-0 text-red border border-red;
+}
+
+.button-secondary--danger:hover {
+  @apply bg-red-40;
+}
+
 /**
  * This injects all of Tailwind's utility classes, generated based on your
  * config file.
