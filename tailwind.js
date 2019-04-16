@@ -762,6 +762,7 @@ module.exports = {
     'lg': '0 3px 6px 0 rgba(0, 0, 0, .04)',
     'xl': '0 8px 16px 0 rgba(0, 0, 0, .16)',
     'none': 'none',
+    'focus': 'inset 0 0 0 1px #007CBB'
   },
 
 

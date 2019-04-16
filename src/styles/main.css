@@ -133,8 +133,20 @@ input[type="text"] {
   @apply border-gray-40 px-3 h-12 border rounded my-2 text-gray-80;
 }
 
+input[type="text"]:focus {
+  @apply border-wt-blue shadow-focus outline-none;
+}
+
 input::placeholder {
   @apply text-gray-50;
+}
+
+input[disabled] {
+  @apply border-0 bg-gray-20 text-gray-50;
+}
+
+label {
+  @apply text-gray font-medium;
 }
 
 /**
