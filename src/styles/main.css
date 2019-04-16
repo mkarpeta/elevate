@@ -94,7 +94,7 @@ h4 {
 }
 
 .button-secondary:hover {
-  @apply bg-blue-40 text-blue-80 border-blue-80;
+  @apply block bg-blue-40 text-blue-80 border-blue-80;
 }
 
 .button--success {
@@ -127,6 +127,14 @@ h4 {
 
 .button-secondary--danger:hover {
   @apply bg-red-40;
+}
+
+label {
+  @apply text-gray;
+}
+
+input[type="text"] {
+  @apply border-gray-40 px-3 h-12 border rounded my-2;
 }
 
 /**
