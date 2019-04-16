@@ -94,7 +94,7 @@ h4 {
 }
 
 .button-secondary:hover {
-  @apply block bg-blue-40 text-blue-80 border-blue-80;
+  @apply bg-blue-40 text-blue-80 border-blue-80;
 }
 
 .button--success {
