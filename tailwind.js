@@ -213,6 +213,7 @@ module.exports = {
   fonts: {
     'sans': [
       'Gotham SSm A',
+      'Gotham SSm B',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -271,7 +272,7 @@ module.exports = {
   textSizes: {
     'xs': '.75rem',     // 12px
     'sm': '	.875rem',   // 14px
-    'base': '1rem',    // 16px
+    'base': '1rem',     // 16px
     'lg': '1.125rem',   // 18px
     'xl': '1.25rem',    // 20px
     '2xl': '1.5rem',    // 24px
@@ -544,6 +545,7 @@ module.exports = {
     '6': '1.5rem',
     '8': '2rem',
     '10': '2.5rem',
+    '11': '2.75rem',
     '12': '3rem',
     '16': '4rem',
     '24': '6rem',

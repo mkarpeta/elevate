@@ -10,7 +10,7 @@
  * @import "tailwindcss/preflight";
  */
 @tailwind preflight;
-@import "fonts.css";
+@import "https://cloud.typography.com/6388896/7231212/css/fonts.css";
 
 /**
  * This injects any component classes registered by plugins.
@@ -38,7 +38,7 @@
  */
 
 body {
-  @apply font-sans text-base text-gray bg-gray-0 leading-normal;
+  @apply font-sans text-lg text-gray bg-gray-0 leading-normal antialiased;
 }
 
 .container {
@@ -82,7 +82,7 @@ h4 {
 }
 
 .button {
-  @apply bg-wt-blue text-gray-0 h-12 px-8 rounded;
+  @apply bg-wt-blue text-gray-0 h-11 px-8 rounded font-medium;
 }
 
 .button:hover {
@@ -130,7 +130,7 @@ h4 {
 }
 
 input[type="text"] {
-  @apply border-gray-40 px-3 h-12 border rounded my-2 text-gray-80;
+  @apply border-gray-20 px-3 h-11 border rounded my-2 text-gray-80 font-normal;
 }
 
 input[type="text"]:focus {
@@ -138,15 +138,15 @@ input[type="text"]:focus {
 }
 
 input::placeholder {
-  @apply text-gray-50;
+  @apply text-gray-50 font-normal;
 }
 
 input[disabled] {
-  @apply border-0 bg-gray-20 text-gray-50;
+  @apply border border-gray-20 bg-gray-10 text-gray-50;
 }
 
 label {
-  @apply text-gray font-medium;
+  @apply text-gray font-normal;
 }
 
 /**
