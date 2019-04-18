@@ -82,7 +82,7 @@ h4 {
 }
 
 .button {
-  @apply bg-wt-blue text-gray-0 h-11 px-8 rounded font-medium;
+  @apply bg-wt-blue text-gray-0 h-12 px-8 rounded font-medium;
 }
 
 .button:hover {
@@ -130,7 +130,7 @@ h4 {
 }
 
 input[type="text"] {
-  @apply border-gray-20 px-3 h-11 border rounded my-2 text-gray-80 font-normal;
+  @apply border-gray-20 px-3 h-12 border rounded my-2 text-gray-80 font-normal;
 }
 
 input[type="text"]:focus {
