@@ -38,7 +38,7 @@
  */
 
 body {
-  @apply font-sans text-lg text-gray bg-gray-0 leading-normal antialiased;
+  @apply font-sans text-gray bg-gray-0 leading-normal antialiased;
 }
 
 .container {
@@ -46,27 +46,27 @@ body {
 }
 
 h1 {
-  @apply text-3xl font-light mb-6 text-gray-80;
+  @apply text-3xl font-light mb-6 text-gray-100;
 }
 
 h2 {
-  @apply text-2xl font-normal my-6 text-gray-80;
+  @apply text-2xl font-normal my-6 text-gray-100;
 }
 
 h3 {
-  @apply text-xl font-medium my-4 text-gray-80;
+  @apply text-xl font-medium my-4 text-gray-100;
 }
 
 h4 {
-  @apply text-lg font-bold my-3 text-gray-80;
+  @apply text-lg font-bold my-3 text-gray-100;
 }
 
 .small {
-  @apply text-sm text-gray py-2 text-gray-50;
+  @apply text-sm text-gray py-2 text-gray-80;
 }
 
 .caption {
-  @apply text-xs py-1 text-gray-50;
+  @apply text-xs py-1 text-gray-80;
 }
 
 .actioncard {
@@ -82,19 +82,30 @@ h4 {
 }
 
 .button {
-  @apply bg-wt-blue text-gray-0 h-12 px-8 rounded font-medium;
+  @apply bg-blue text-gray-0 h-11 px-6 rounded font-medium;
+  transition: all .2s;
 }
 
 .button:hover {
-  @apply bg-blue-80;
+  @apply shadow-blue;
+  transition: all .2s;
+}
+
+.button:active {
+  @apply bg-blue-80 shadow-none;
+  transition: all .1s;
 }
 
 .button-secondary {
-  @apply bg-gray-0 text-wt-blue border border-wt-blue;
+  @apply bg-gray-0 text-blue border border-blue-40;
 }
 
 .button-secondary:hover {
-  @apply bg-blue-40 text-blue-80 border-blue-80;
+  @apply shadow-blue-light;
+}
+
+.button-secondary:active {
+  @apply shadow-none text-blue-80 border-blue-80 bg-gray-0;
 }
 
 .button--success {
@@ -102,7 +113,11 @@ h4 {
 }
 
 .button--success:hover {
-  @apply bg-green-80;
+  @apply shadow-green;
+}
+
+.button--success:active {
+  @apply shadow-none bg-green-80;
 }
 
 .button--danger {
@@ -110,7 +125,11 @@ h4 {
 }
 
 .button--danger:hover {
-  @apply bg-red-80;
+  @apply shadow-red;
+}
+
+.button--danger:active {
+  @apply shadow-none bg-red-80;
 }
 
 .button-secondary--success {
@@ -118,7 +137,11 @@ h4 {
 }
 
 .button-secondary--success:hover {
-  @apply bg-green-40;
+  @apply shadow-green-light;
+}
+
+.button-secondary--success:active {
+  @apply shadow-none border-green-80 text-green-80 bg-gray-0;
 }
 
 .button-secondary--danger {
@@ -126,23 +149,27 @@ h4 {
 }
 
 .button-secondary--danger:hover {
-  @apply bg-red-40;
+  @apply shadow-red-light border-red-40;
+}
+
+.button-secondary--danger:active {
+  @apply shadow-none border-red-80 text-red-80 bg-gray-0;
 }
 
 input[type="text"] {
-  @apply border-gray-20 px-3 h-12 border rounded my-2 text-gray-80 font-normal;
+  @apply border-gray-20 px-3 h-11 border rounded my-2 text-gray font-normal;
 }
 
 input[type="text"]:focus {
-  @apply border-wt-blue shadow-focus outline-none;
+  @apply border-blue shadow-focus outline-none;
 }
 
 input::placeholder {
-  @apply text-gray-50 font-normal;
+  @apply text-gray-60 font-normal;
 }
 
 input[disabled] {
-  @apply border border-gray-20 bg-gray-10 text-gray-50;
+  @apply border border-gray-20 bg-gray-10 text-gray-60;
 }
 
 label {

@@ -46,105 +46,50 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 let colors = {
   'transparent': 'transparent',
 
-  'blue-40': '#E1F6FD',
-  'blue-50': '#58ABEE',
-  'wt-blue': '#007cbb',
-  'blue-80': '#005C99',
+  'blue-20': '#ECF7FE',
+  'blue-40': '#3D96FC',
+  'blue':    '#0672EE',
+  'blue-80': '#0456B4',
 
-  'green-40': '#E8F5E9',
-  'green-50': '#81C784',
-  'green':    '#2E7D32',
-  'green-80': '#1B5E20',
+  'green-20': '#EFFCF6',
+  'green-40': '#2AA87A',
+  'green':    '#018756',
+  'green-80': '#116546',
 
-  'red-40': '#FFEBEE',
-  'red-50': '#E57373',
-  'red':    '#D32F2F',
-  'red-80': '#B71C1C',
+  'red-20': '#FEF0F3',
+  'red-40': '#FF4365',
+  'red':    '#EA0D35',
+  'red-80': '#B20827',
 
-  'orange-40': '#FBE9E7',
-  'orange-50': '#FF8A65',
-  'orange':    '#FF5722',
-  'orange-80': '#BF360C',
+  'orange-20': '#FFECE8',
+  'orange-40': '#FD5F38',
+  'orange':    '#E22D00',
+  'orange-80': '#AB2200',
 
-  'purple-40': '#EBECF6',
-  'purple-50': '#A5A3F4',
-  'purple':    '#7474C1',
-  'purple-80': '#3B2B7E',
+  'purple-20': '#EBEBFE',
+  'purple-40': '#8E8ED2',
+  'purple':    '#6E6EBA',
+  'purple-80': '#515193',
 
-  'violet-40': '#F5E4F0',
-  'violet-50': '#C563AE',
-  'violet':    '#A91C8E',
-  'violet-80': '#61016C',
+  'violet-20': '#F5E4F0',
+  'violet-40': '#DB6AC5',
+  'violet':    '#C43FAA',
+  'violet-80': '#942D81',
 
-  'yellow-40': '#FEFAEC',
-  'yellow-50': '#FFFF72',
-  'yellow':    '#F6CF3F',
-  'yellow-80': '#BF9E00',
+  'yellow-20': '#FAF6DC',
+  'yellow-40': '#F6DB36',
+  'yellow':    '#ECCC0D',
+  'yellow-80': '#887609',
 
-  'gray-0': '#ffffff',
-  'gray-10': '#F9FAFA',
-  'gray-20': '#E7E9EB',
-  'gray-40': '#B9C0C5',
-  'gray-50': '#5E778A',
-  'gray':    '#33434E',
-  'gray-80': '#222E37',
-
-/* Old Colors
-
-  'blue-40': '#e5f6fc',
-  'blue-50': '#4dc2eb',
-  'cw-blue': '#00a8e2',
-  'wt-blue': '#007cbb',
-  'blue-70': '#005783',
-  'blue-80': '#00324b',
-
-  'green-40': '#f2f8e6',
-  'green-50': '#a7d04d',
-  'green':    '#81bc00',
-  'green-70': '#5a8400',
-  'green-80': '#344b00',
-
-  'red-40': '#fdedeb',
-  'red-50': '#ee8174',
-  'red':    '#e74c39',
-  'red-70': '#a23528',
-  'red-80': '#5c1e17',
-
-  'orange-40': '#fff3e6',
-  'orange-50': '#ffb566',
-  'orange':    '#ff8400',
-  'orange-70': '#b35c00',
-  'orange-80': '#663500',
-
-  'purple-40': '#f1f1f9',
-  'purple-50': '#9e9ed4',
-  'purple':    '#7474c1',
-  'purple-70': '#515187',
-  'purple-80': '#23233a',
-
-  'violet-40': '#f6e8f4',
-  'violet-50': '#c360b0',
-  'violet':    '#a91c8e',
-  'violet-70': '#761463',
-  'violet-80': '#440b39',
-
-  'yellow-40': '#fefaec',
-  'yellow-50': '#f9dd79',
-  'yellow':    '#f6cf3f',
-  'yellow-70': '#ac912c',
-  'yellow-80': '#625319',
-
-  'gray-0': '#ffffff',
-  'gray-10': '#f9fafa',
-  'gray-20': '#e7e9eb',
-  'gray-30': '#d3d8db',
-  'gray-40': '#b9c0c5',
-  'gray-50': '#a0aab1',
-  'gray':    '#425563',
-  'gray-70': '#253746',
-  'gray-80': '#131e29',
-
-*/
+  'gray-0':   '#FFFFFF',
+  'gray-10':  '#F9FAFA',
+  'gray-20':  '#E7E9EB',
+  'gray-40':  '#B2BBBD',
+  'gray-60':  '#96A1A6',
+  'gray-80':  '#657683',
+  'gray':     '#33434E',
+  'gray-100': '#222E37'
+  
 }
 
 module.exports = {
@@ -758,13 +703,21 @@ module.exports = {
   */
 
   shadows: {
-    default: '0 2px 2px 0 rgba(0, 0, 0, .04)',
-    'sm': '0 2px 4px 0 rgba(0, 0, 0, .04)',
-    'md': '0 2px 4px 0 rgba(0, 0, 0, .04)',
-    'lg': '0 3px 6px 0 rgba(0, 0, 0, .04)',
+    default: '0 2px 2px 0 rgba(0, 0, 0, .12)',
+    'sm': '0 2px 4px 0 rgba(0, 0, 0, .12)',
+    'md': '0 2px 4px 0 rgba(0, 0, 0, .12)',
+    'lg': '0 3px 6px 0 rgba(0, 0, 0, .12)',
     'xl': '0 8px 16px 0 rgba(0, 0, 0, .16)',
     'none': 'none',
-    'focus': 'inset 0 0 0 1px #007CBB'
+    'focus': 'inset 0 0 0 1px' + colors.blue,
+    'gray': '0 8px 8px -8px ' + colors.gray,
+    'blue': '0 8px 8px -8px ' + colors.blue,
+    'blue-light': '0 8px 8px -8px ' + colors['blue-40'],
+    'green': '0 8px 8px -8px ' + colors.green,
+    'green-light': '0 8px 8px -8px ' + colors['green-40'],
+    'red': '0 8px 8px -8px ' + colors.red,
+    'red-light': '0 8px 8px -8px ' + colors['red-40'],
+    
   },
 
 
