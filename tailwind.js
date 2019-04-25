@@ -711,13 +711,12 @@ module.exports = {
     'none': 'none',
     'focus': 'inset 0 0 0 1px' + colors.blue,
     'gray': '0 8px 8px -8px ' + colors.gray,
-    'blue': '0 8px 8px -8px ' + colors.blue,
-    'blue-light': '0 8px 8px -8px ' + colors['blue-40'],
-    'green': '0 8px 8px -8px ' + colors.green,
-    'green-light': '0 8px 8px -8px ' + colors['green-40'],
-    'red': '0 8px 8px -8px ' + colors.red,
-    'red-light': '0 8px 8px -8px ' + colors['red-40'],
-    
+    'blue': '0 4px 12px -8px ' + colors.blue,
+    'blue-light': '0 4px 12px -8px ' + colors['blue-40'],
+    'green': '0 4px 12px -8px ' + colors.green,
+    'green-light': '0 4px 12px -8px ' + colors['green-40'],
+    'red': '0 4px 12px -8px ' + colors.red,
+    'red-light': '0 4px 12px -8px ' + colors['red-40'],
   },
 
 
