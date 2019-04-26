@@ -4,6 +4,5 @@ module.exports = {
   plugins: [
     tailwindcss('./tailwind.js'),
     require('autoprefixer'),
-    require('postcss-color-function'),
   ]
 }

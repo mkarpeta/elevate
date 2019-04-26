@@ -25,7 +25,7 @@ View the full documentation at https://tailwindcss.com.
 */
 
 let defaultConfig = require('tailwindcss/defaultConfig')()
-
+let chroma = require('chroma-js')
 
 /*
 |-------------------------------------------------------------------------------
@@ -711,11 +711,11 @@ module.exports = {
     'none': 'none',
     'focus': 'inset 0 0 0 1px' + colors.blue,
     'gray': '0 8px 8px -8px ' + colors.gray,
-    'blue': '0 4px 12px -8px ' + colors.blue,
+    'blue': '0 4px 12px -8px ' + colors['blue'] + ', 0 4px 4px -4px' + colors['blue-40'],
     'blue-light': '0 4px 12px -8px ' + colors['blue-40'],
-    'green': '0 4px 12px -8px ' + colors.green,
+    'green': '0 4px 12px -8px ' + colors['green'] + ', 0 4px 6px -6px' + colors['green-40'],
     'green-light': '0 4px 12px -8px ' + colors['green-40'],
-    'red': '0 4px 12px -8px ' + colors.red,
+    'red': '0 4px 12px -8px ' + colors['red'] + ', 0 4px 6px -6px' + colors['red-40'],
     'red-light': '0 4px 12px -8px ' + colors['red-40'],
   },
 

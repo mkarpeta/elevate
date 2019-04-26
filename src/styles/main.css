@@ -54,11 +54,11 @@ h2 {
 }
 
 h3 {
-  @apply text-xl font-medium my-4 text-gray-100;
+  @apply text-xl font-normal my-4 text-gray-100;
 }
 
 h4 {
-  @apply text-lg font-bold my-3 text-gray-100;
+  @apply text-lg font-normal my-3 text-gray-100;
 }
 
 .small {
