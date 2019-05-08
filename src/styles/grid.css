@@ -1,0 +1,44 @@
+.grid {
+  @apply flex flex-wrap -mx-2;
+}
+
+.grid .column {
+  @apply px-2;
+}
+
+@screen sm {
+  .container-fluid {
+    @apply px-5;
+  }
+  .grid {
+    @apply -mx-3;
+  }
+  .grid .column {
+    @apply px-3;
+  }
+}
+
+@screen lg {
+  .container-fluid {
+    @apply px-8;
+  }
+  .grid {
+    @apply -mx-4;
+  }
+  .grid .column {
+    @apply px-4;
+  }
+}
+
+@screen xl {
+  .container-fluid {
+    @apply px-6;
+    max-width: 1248px;
+  }
+  .grid {
+    @apply -mx-6;
+  }
+  .grid .column {
+    @apply px-6;
+  }
+}

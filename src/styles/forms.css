@@ -1,0 +1,19 @@
+input[type="text"] {
+    @apply border-gray-20 px-3 h-11 border rounded my-2 text-gray font-normal;
+}
+
+input[type="text"]:focus {
+    @apply border-blue shadow-focus outline-none;
+}
+
+input::placeholder {
+    @apply text-gray-60 font-normal;
+}
+
+input[disabled] {
+    @apply border border-gray-20 bg-gray-10 text-gray-60;
+}
+
+label {
+    @apply text-gray font-normal;
+}
