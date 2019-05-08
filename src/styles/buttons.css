@@ -13,62 +13,70 @@
   transition: all .1s;
 }
 
-.button-secondary {
+.button.is-large {
+  @apply h-14 text-large px-8;
+}
+
+.button.is-small {
+  @apply h-9 px-5 text-small;
+}
+
+.button.is-secondary {
   @apply bg-gray-0 text-blue border border-blue-40;
 }
 
-.button-secondary:hover {
+.button.is-secondary:hover {
   @apply shadow-blue-light;
 }
 
-.button-secondary:active {
+.button.is-secondary:active {
   @apply shadow-none text-blue-80 border-blue-80 bg-gray-0;
 }
 
-.button--success {
+.button.is-success {
   @apply bg-green;
 }
 
-.button--success:hover {
+.button.is-success:hover {
   @apply shadow-green;
 }
 
-.button--success:active {
+.button.is-success:active {
   @apply shadow-none bg-green-80;
 }
   
-  .button--danger {
-    @apply bg-red;
-  }
-  
-  .button--danger:hover {
-    @apply shadow-red;
-  }
-  
-  .button--danger:active {
-    @apply shadow-none bg-red-80;
-  }
-  
-  .button-secondary--success {
-    @apply bg-gray-0 text-green border border-green;
-  }
-  
-  .button-secondary--success:hover {
-    @apply shadow-green-light;
-  }
-  
-  .button-secondary--success:active {
-    @apply shadow-none border-green-80 text-green-80 bg-gray-0;
-  }
-  
-  .button-secondary--danger {
-    @apply bg-gray-0 text-red border border-red;
-  }
-  
-  .button-secondary--danger:hover {
-    @apply shadow-red-light border-red-40;
-  }
-  
-  .button-secondary--danger:active {
-    @apply shadow-none border-red-80 text-red-80 bg-gray-0;
-  }
+.button.is-danger {
+  @apply bg-red;
+}
+
+.button.is-danger:hover {
+  @apply shadow-red;
+}
+
+.button.is-danger:active {
+  @apply shadow-none bg-red-80;
+}
+
+.button.is-secondary.is-success {
+  @apply bg-gray-0 text-green border border-green;
+}
+
+.button.is-secondary.is-success:hover {
+  @apply shadow-green-light;
+}
+
+.button.is-secondary.is-success:active {
+  @apply shadow-none border-green-80 text-green-80 bg-gray-0;
+}
+
+.button.is-secondary.is-danger {
+  @apply bg-gray-0 text-red border border-red;
+}
+
+.button.is-secondary.is-danger:hover {
+  @apply shadow-red-light border-red-40;
+}
+
+.button.is-secondary.is-danger:active {
+  @apply shadow-none border-red-80 text-red-80 bg-gray-0;
+}
