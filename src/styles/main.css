@@ -38,19 +38,15 @@
  */
 
 body {
-  @apply font-sans text-gray bg-gray-0 leading-normal antialiased;
-}
-
-.container {
-  @apply pt-12;
+  @apply font-sans text-gray bg-gray-0 leading-default antialiased;
 }
 
 h1 {
-  @apply text-3xl font-light mb-6 text-gray-100;
+  @apply text-xxxl font-normal mb-6 text-gray-100;
 }
 
 h2 {
-  @apply text-2xl font-normal my-6 text-gray-100;
+  @apply text-xxl font-normal my-6 text-gray-100;
 }
 
 h3 {
@@ -58,11 +54,11 @@ h3 {
 }
 
 h4 {
-  @apply text-lg font-normal my-3 text-gray-100;
+  @apply text-medium font-normal my-3 text-gray-100;
 }
 
 .small {
-  @apply text-sm text-gray py-2 text-gray-80;
+  @apply text-small text-gray py-2 text-gray-80;
 }
 
 .caption {
@@ -70,15 +66,56 @@ h4 {
 }
 
 .actioncard {
-  @apply border-solid border border-gray-20 rounded p-4 h-64 flex items-center justify-center shadow;
+  @apply bg-gray-20 p-4 mb-6 h-64 flex items-center justify-center;
+}
+
+.container-fluid {
+  @apply mx-auto px-4;
 }
 
 .grid {
-  @apply flex flex-wrap -mx-6;
+  @apply flex flex-wrap -mx-2;
 }
 
 .grid .column {
-  @apply px-6;
+  @apply px-2;
+}
+
+@screen sm {
+  .container-fluid {
+    @apply px-5;
+  }
+  .grid {
+    @apply -mx-3;
+  }
+  .grid .column {
+    @apply px-3;
+  }
+}
+
+@screen lg {
+  .container-fluid {
+    @apply px-8;
+  }
+  .grid {
+    @apply -mx-4;
+  }
+  .grid .column {
+    @apply px-4;
+  }
+}
+
+@screen xl {
+  .container-fluid {
+    @apply px-6;
+    max-width: 1248px;
+  }
+  .grid {
+    @apply -mx-6;
+  }
+  .grid .column {
+    @apply px-6;
+  }
 }
 
 .button {

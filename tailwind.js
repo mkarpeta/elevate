@@ -46,49 +46,49 @@ let chroma = require('chroma-js')
 let colors = {
   'transparent': 'transparent',
 
-  'blue-20': '#ECF7FE',
-  'blue-40': '#3D96FC',
-  'blue':    '#0672EE',
-  'blue-80': '#0456B4',
+  'blue-20'   : '#ECF7FE',
+  'blue-40'   : '#3D96FC',
+  'blue'      : '#0672EE',
+  'blue-80'   : '#0456B4',
 
-  'green-20': '#EFFCF6',
-  'green-40': '#2AA87A',
-  'green':    '#018756',
-  'green-80': '#116546',
+  'green-20'  : '#EFFCF6',
+  'green-40'  : '#2AA87A',
+  'green'     : '#018756',
+  'green-80'  : '#116546',
 
-  'red-20': '#FEF0F3',
-  'red-40': '#FF4365',
-  'red':    '#EA0D35',
-  'red-80': '#B20827',
+  'red-20'    : '#FEF0F3',
+  'red-40'    : '#FF4365',
+  'red'       : '#EA0D35',
+  'red-80'    : '#B20827',
 
-  'orange-20': '#FFECE8',
-  'orange-40': '#FD5F38',
-  'orange':    '#E22D00',
-  'orange-80': '#AB2200',
+  'orange-20' : '#FFECE8',
+  'orange-40' : '#FD5F38',
+  'orange'    : '#E22D00',
+  'orange-80' : '#AB2200',
 
-  'purple-20': '#EBEBFE',
-  'purple-40': '#8E8ED2',
-  'purple':    '#6E6EBA',
-  'purple-80': '#515193',
+  'purple-20' : '#EBEBFE',
+  'purple-40' : '#8E8ED2',
+  'purple'    : '#6E6EBA',
+  'purple-80' : '#515193',
 
-  'violet-20': '#F5E4F0',
-  'violet-40': '#DB6AC5',
-  'violet':    '#C43FAA',
-  'violet-80': '#942D81',
+  'violet-20' : '#F5E4F0',
+  'violet-40' : '#DB6AC5',
+  'violet'    : '#C43FAA',
+  'violet-80' : '#942D81',
 
-  'yellow-20': '#FAF6DC',
-  'yellow-40': '#F6DB36',
-  'yellow':    '#ECCC0D',
-  'yellow-80': '#887609',
+  'yellow-20' : '#FAF6DC',
+  'yellow-40' : '#F6DB36',
+  'yellow'    : '#ECCC0D',
+  'yellow-80' : '#887609',
 
-  'gray-0':   '#FFFFFF',
-  'gray-10':  '#F9FAFA',
-  'gray-20':  '#E7E9EB',
-  'gray-40':  '#B2BBBD',
-  'gray-60':  '#96A1A6',
-  'gray-80':  '#657683',
-  'gray':     '#33434E',
-  'gray-100': '#222E37'
+  'gray-0'    : '#FFFFFF',
+  'gray-10'   : '#F9FAFA',
+  'gray-20'   : '#E7E9EB',
+  'gray-40'   : '#B2BBBD',
+  'gray-60'   : '#96A1A6',
+  'gray-80'   : '#657683',
+  'gray'      : '#33434E',
+  'gray-100'  : '#222E37'
   
 }
 
@@ -130,10 +130,10 @@ module.exports = {
   */
 
   screens: {
-    'sm': '576px',
-    'md': '768px',
-    'lg': '992px',
-    'xl': '1104px'
+    'sm' : '600px',
+    'md' : '840px',
+    'lg' : '1024px',
+    'xl' : '1280px'
   },
 
 
@@ -215,13 +215,14 @@ module.exports = {
   */
 
   textSizes: {
-    'xs': '.75rem',     // 12px
-    'sm': '	.875rem',   // 14px
-    'base': '1rem',     // 16px
-    'lg': '1.125rem',   // 18px
-    'xl': '1.25rem',    // 20px
-    '2xl': '1.5rem',    // 24px
-    '3xl': '1.75rem',   // 28px
+    'xs'      : '.75rem',      // 12px
+    'small'   : '.875rem',     // 14px
+    'default' : '1rem',        // 16px
+    'medium'  : '1.125rem',    // 18px
+    'large'   : '1.25rem',     // 20px
+    'xl'      : '1.5rem',      // 24px
+    'xxl'     : '1.75rem',     // 28px
+    'xxxl'    : '2rem',        // 32px
   },
 
 
@@ -240,15 +241,8 @@ module.exports = {
   */
 
   fontWeights: {
-    // 'hairline': 100,
-    // 'thin': 200,
-    'light': 300,
-    'normal': 400,
-    'medium': 500,
-    // 'semibold': 600,
-    'bold': 700,
-    // 'extrabold': 800,
-    // 'black': 900,
+    'normal' : 400,
+    'medium' : 500,
   },
 
 
@@ -265,13 +259,13 @@ module.exports = {
   */
 
   leading: {
-    '0': 1,
-    '10': 1.142857143,
-    '20': 1.2,
-    '30': 1.230769231,
-    '40': 1.333333333,
-    '50': 1.454545455,
-    'normal': 1.6,
+    'xs'      : '1rem',        // 16px
+    'small'   : '1.25rem',     // 20px
+    'default' : '1.5rem',      // 24px
+    'medium'  : '1.75rem',     // 28px
+    'xl'      : '2rem',        // 32px
+    'xxl'     : '2.25rem',     // 36px
+    'xxxl'    : '2.5rem',      // 40px
   },
 
 
@@ -288,9 +282,9 @@ module.exports = {
   */
 
   tracking: {
-    'tight': '-0.0625rem',
-    'normal': '0',
-    'wide': '0.0625rem',
+    'tight'  : '-0.0625rem',   // -1px
+    'normal' : '0',
+    'wide'   : '0.0625rem',    // 1px
   },
 
 
@@ -340,9 +334,9 @@ module.exports = {
   */
 
   backgroundSize: {
-    'auto': 'auto',
-    'cover': 'cover',
-    'contain': 'contain',
+    'auto'    : 'auto',
+    'cover'   : 'cover',
+    'contain' : 'contain',
   },
 
 
@@ -360,9 +354,9 @@ module.exports = {
   */
 
   borderWidths: {
-    default: '1px',
-    '0': '0',
-    '2': '2px',
+    default : '1px',
+    '0'     : '0',
+    '2'     : '2px',
   },
 
 
@@ -403,11 +397,11 @@ module.exports = {
   */
 
   borderRadius: {
-    'none': '0',
-    'sm': '.125rem',
-    default: '.25rem',
-    'lg': '.5rem',
-    'full': '9999px',
+    'none'  : '0',
+    'small' : '.125rem',   // 2px
+    default : '.25rem',    // 4px
+    'large' : '.5rem',     // 8px
+    'full'  : '9999px',
   },
 
 
