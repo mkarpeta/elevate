@@ -9,7 +9,7 @@
  *
  * @import "tailwindcss/preflight";
  */
- 
+
 @tailwind preflight;
 
 /**
@@ -73,10 +73,6 @@ h4 {
 
 .actioncard {
   @apply bg-gray-20 p-4 mb-6 h-64 flex items-center justify-center;
-}
-
-.container-fluid {
-  @apply mx-auto px-4;
 }
 
 /**
