@@ -31,5 +31,9 @@ module.exports = {
       filename: 'grid.html',
       template: 'src/grid.html',
     }),
+    new HtmlWebpackPlugin({
+      filename: 'grid-wide.html',
+      template: 'src/grid-wide.html',
+    }),
   ],
 }

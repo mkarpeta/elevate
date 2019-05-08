@@ -2,6 +2,12 @@
   @apply mx-auto px-4;
 }
 
+.wide-container-fluid {
+  @apply mx-auto px-4;
+  max-width: 103rem;
+  min-width: 46rem;
+}
+
 .grid {
   @apply flex flex-wrap -mx-2;
 }
@@ -11,7 +17,7 @@
 }
 
 @screen sm {
-  .container-fluid {
+  .container-fluid, .wide-container-fluid {
     @apply px-6;
   }
   .grid {
@@ -23,7 +29,7 @@
 }
 
 @screen lg {
-  .container-fluid {
+  .container-fluid, .wide-container-fluid {
     @apply px-8;
   }
   .grid {
@@ -37,7 +43,10 @@
 @screen xl {
   .container-fluid {
     @apply px-6;
-    max-width: 1248px;
+    max-width: 78rem;
+  }
+  .wide-container-fluid {
+    @apply px-6;
   }
   .grid {
     @apply -mx-6;
