@@ -83,7 +83,7 @@ let colors = {
 
   'gray-0'    : '#FFFFFF',
   'gray-10'   : '#F9FAFA',
-  'gray-20'   : '#E7E9EB',
+  'gray-20'   : '#E3E5E8',
   'gray-40'   : '#B2BBBD',
   'gray-60'   : '#96A1A6',
   'gray-80'   : '#657683',
