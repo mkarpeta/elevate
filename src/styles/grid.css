@@ -5,7 +5,7 @@
 .wide-container-fluid {
   @apply mx-auto px-4;
   max-width: 103rem;
-  min-width: 46rem;
+  min-width: 64rem;
 }
 
 .grid {
