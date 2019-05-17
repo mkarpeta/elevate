@@ -1,5 +1,5 @@
 .button {
-  @apply bg-blue text-gray-0 h-11 px-6 rounded font-medium;
+  @apply bg-blue text-gray-0 h-11 px-6 rounded font-bold;
   transition: all .2s;
 }
 
