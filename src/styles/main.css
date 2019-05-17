@@ -48,31 +48,31 @@ body {
 }
 
 h1 {
-  @apply text-xxxl font-normal mb-6 text-gray-100;
+  @apply text-xxxl font-normal mb-24 text-gray-100;
 }
 
 h2 {
-  @apply text-xxl font-normal my-6 text-gray-100;
+  @apply text-xxl font-normal my-24 text-gray-100;
 }
 
 h3 {
-  @apply text-xl font-normal my-4 text-gray-100;
+  @apply text-xl font-normal my-16 text-gray-100;
 }
 
 h4 {
-  @apply text-medium font-normal my-3 text-gray-100;
+  @apply text-medium font-normal my-12 text-gray-100;
 }
 
 .small {
-  @apply text-small text-gray py-2 text-gray-80;
+  @apply text-small text-gray py-8 text-gray-80;
 }
 
 .caption {
-  @apply text-xs py-1 text-gray-80;
+  @apply text-xs py-4 text-gray-80;
 }
 
 .actioncard {
-  @apply bg-gray-20 p-4 mb-6 h-64 flex items-center justify-center;
+  @apply bg-gray-20 p-16 mb-24 h-256 flex items-center justify-center;
 }
 
 /**
