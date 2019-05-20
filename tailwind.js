@@ -608,6 +608,7 @@ module.exports = {
     '0'  : '0',
     '4'  : '0.25rem',    // 4px
     '8'  : '0.5rem',     // 8px
+    '12' : '0.75rem',    // 12px, 24px/2 – grid only
     '16' : '1rem',       // 16px
     '24' : '1.5rem',     // 24px
     '32' : '2rem',       // 32px
@@ -642,6 +643,7 @@ module.exports = {
     '0'  : '0',
     '4'  : '0.25rem',    // 4px
     '8'  : '0.5rem',     // 8px
+    '12' : '0.75rem',    // 12px, 24px/2 – grid only
     '16' : '1rem',       // 16px
     '24' : '1.5rem',     // 24px
     '32' : '2rem',       // 32px
@@ -675,6 +677,7 @@ module.exports = {
     '0': '0',
     '4'  : '0.25rem',    // 4px
     '8'  : '0.5rem',     // 8px
+    '12' : '0.75rem',    // 12px, 24px/2 – grid only
     '16' : '1rem',       // 16px
     '24' : '1.5rem',     // 24px
     '32' : '2rem',       // 32px

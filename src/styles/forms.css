@@ -1,5 +1,5 @@
 input[type="text"] {
-    @apply border-gray-20 px-12 h-40 border rounded my-8 text-gray font-bold;
+    @apply border-gray-20 px-16 h-40 border rounded my-8 text-gray font-bold;
 }
 
 input[type="text"]:focus {

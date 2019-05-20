@@ -18,7 +18,7 @@
 }
 
 .button.is-small {
-  @apply h-32 px-20 text-small;
+  @apply h-32 px-16 text-small;
 }
 
 .button.is-secondary {
