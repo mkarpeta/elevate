@@ -557,16 +557,16 @@ module.exports = {
   */
 
   maxWidth: {
-    'xs': '20rem',    // 320px
-    'sm': '30rem',    // 480px
-    'md': '40rem',    // 640px
-    'lg': '50rem',    // 800px
-    'xl': '60rem',    // 960px
-    '2xl': '70rem',   // 1120px
-    '3xl': '78rem',   // 1248px
-    '4xl': '90rem',   // 1440px
-    '5xl': '103rem',  // 1648px
-    'full': '100%',
+    'xs'   : '20rem',    // 320px
+    'sm'   : '30rem',    // 480px
+    'md'   : '40rem',    // 640px
+    'lg'   : '50rem',    // 800px
+    'xl'   : '60rem',    // 960px
+    '2xl'  : '70rem',    // 1120px
+    '3xl'  : '78rem',    // 1248px
+    '4xl'  : '90rem',    // 1440px
+    '5xl'  : '103rem',   // 1648px
+    'full' : '100%',
   },
 
 
