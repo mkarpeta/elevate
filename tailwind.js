@@ -215,8 +215,8 @@ module.exports = {
   */
 
   textSizes: {
-    'xs'      : '.75rem',      // 12px
-    'small'   : '.875rem',     // 14px
+    'xs'      : '0.75rem',     // 12px
+    'small'   : '0.875rem',    // 14px
     'default' : '1rem',        // 16px
     'medium'  : '1.125rem',    // 18px
     'large'   : '1.25rem',     // 20px
@@ -398,9 +398,9 @@ module.exports = {
 
   borderRadius: {
     'none'  : '0',
-    'small' : '.125rem',   // 2px
-    default : '.25rem',    // 4px
-    'large' : '.5rem',     // 8px
+    'small' : '0.125rem',   // 2px
+    default : '0.25rem',    // 4px
+    'large' : '0.5rem',     // 8px
     'full'  : '9999px',
   },
 
@@ -674,7 +674,7 @@ module.exports = {
   */
 
   negativeMargin: {
-    '0': '0',
+    '0'  : '0',
     '4'  : '0.25rem',    // 4px
     '8'  : '0.5rem',     // 8px
     '12' : '0.75rem',    // 12px, 24px/2 – grid only
